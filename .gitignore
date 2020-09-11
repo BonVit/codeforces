@@ -1,0 +1,11 @@
+# Exclude files without extensions
+*
+!/**/
+!*.*
+
+*.DS_STORE
+
+.vscode/*
+!.vscode/launch.json
+
+*.dSym
