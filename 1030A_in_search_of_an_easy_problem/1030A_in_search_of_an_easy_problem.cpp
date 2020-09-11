@@ -25,6 +25,17 @@ void solve()
     istream &inputStream = getInputStream();
 
     // Your code goes here
+
+    int n, r;
+    inputStream >> n;
+    for (int i(0); i < n; i++) {
+        inputStream >> r;
+        if (r == 1) {
+            cout << "HARD" << endl;
+            return;
+        }
+    }
+    cout << "EASY" << endl;
 }
 
 int main(int argc, char *argv[])
